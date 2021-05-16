@@ -43,11 +43,11 @@ p {
   transform: rotate(20deg);
 }
 
-.fas {
+.icon {
   padding: 4%;
   color: #ef8172;
 }
 
-.fas:hover {
+.icon:hover {
   color: #ff4c68;
 }
