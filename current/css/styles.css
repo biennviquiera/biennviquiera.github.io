@@ -41,6 +41,7 @@ p {
 .iphone {
   padding: 6% 0 4% 4%;
   transform: rotate(20deg);
+  text-align: center;
 }
 
 .icon {
