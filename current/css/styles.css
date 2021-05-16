@@ -7,15 +7,36 @@ font-family: 'Ubuntu', sans-serif; */
 
 body {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
 }
 h1 {
 
   font-weight:900;
-  font-family: 'Montserrat', sans-serif;
+  padding: 8% 2% 8% 0;
+  font-family: Ubuntu;
   font-size: 3rem;
   line-height: 1.5;
 }
 
+p {
+  color: #8f8f8f;
+  font-family: Ubuntu;
+}
+
 .container-fluid {
   padding: 3% 15%;
+}
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.iphone {
+  padding: 6% 0 4% 4%;
+  transform: rotate(20deg);
 }
