@@ -60,11 +60,11 @@ p {
 }
 
 .iphone {
-  padding: 8% 0 4% 4%;
+  margin: 8% 0 4% 4%;
   transform: rotate(25deg);
   text-align: center;
   position: absolute;
-  top: 30px;
+  top: 50px;
   right: 10%;
 }
 
@@ -126,17 +126,18 @@ p {
 
 .cta-heading {
   font-size: 3rem;
-  padding: 5% 9%;
+  line-height: 2;
 }
 
 /* Footer */
 #footer {
-  padding: 10%;
+  padding: 7% 1%;
   text-align: center;
 }
 
 .footer-logo {
   padding: 6px;
+  color: black;
 }
 @media (max-width: 1028px) {
   .iphone {
