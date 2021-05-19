@@ -66,6 +66,7 @@ p {
   color: #ff4c68;
 }
 
+/* Testimonials */
 #testimonials {
   text-align: center;
   background-color: #ef8172;
@@ -91,4 +92,14 @@ p {
 
 .carousel-item {
   padding: 7% 15%;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
