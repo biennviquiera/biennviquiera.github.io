@@ -30,6 +30,12 @@ img {
 	text-align: center;
 }
 
+.invertHover:hover {
+		text-decoration: underline;
+		background-color: black;
+		color: white;
+}
+
 #links {
 	padding: 4% 20%;
 }
@@ -69,7 +75,9 @@ a, a:hover, a:focus, a:active {
 }
 
 #currentLink:hover {
-	text-decoration: underline;
-	background-color: black;
-	color: white;
+}
+
+.currentButton {
+	margin: 10px;
+	text-decoration: none;
 }

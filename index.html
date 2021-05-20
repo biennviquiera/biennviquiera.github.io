@@ -46,9 +46,12 @@
   </section>
 
 
-  <div id="current">
-    <h4>What am I currently working on?</h4>
-    <a id="currentLink" href="current/tindog.html" target="_blank"><p>Web Development Course by Angela Yu</a>
+  <h4>What am I currently working on?</h4>
+  <div class="current">
+    <button class="btn btn-light currentButton" data-target="#webdev" data-toggle="collapse" aria-expanded="false" aria-controls="collapseExample">Web Development Course by Angela Yu</button>
+    <div id="webdev" class="collapse">
+      <a id="currentLink" class="invertHover" href="current/tindog.html" target="_blank"><p>Tindog, a Bootstrap project</a>
+    </div>
   </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
